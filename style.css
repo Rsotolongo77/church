@@ -3,15 +3,34 @@ body {
     width: 100%;
     height: 100%;
     margin: auto;
-    padding: 0px;
     overflow: scroll;
-    /* justify-content: center;
-    display: block; */
     background-repeat: no-repeat;
     background-size: cover;
-    /* position: relative; */
 }
 
 body {
     background-image: url("./assets/images/background.jpg");;
+}
+
+.material-icons {
+    font-size: 4rem;
+    color: white;
+}
+
+.sidenav {
+    background-color: rgb(255, 220, 206);
+}
+
+.user-view {
+    background-color: white;
+}
+
+#menu_image {
+    height: 7rem;
+    width: 7rem;
+}
+
+#menuFont {
+    font-size: 1.5rem;
+    margin-bottom: 2.5%;
 }

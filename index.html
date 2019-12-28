@@ -6,15 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Bethel Church</title>
 </head>
 
 <body>
 
+    <div class="container section">
+        <a href="#" class="sidenav-trigger" data-target="menu-side">
+            <i class="material-icons">menu</i>
+        </a>
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <ul class="sidenav" id="menu-side">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <!-- <img src="assets/images/menuBackground.jpg" alt="Menu Background" id="menu_background"> -->
+                    </div>
+                    <a href="#">
+                        <img src="assets/images/menuImage2.jpg" alt="Menu Image" id="menu_image" class="circle">
+                    </a>
+                    <a href="#">
+                        <span class="name grey-text" id="menuFont">Bethel Church</span>
+                    </a>
+                    <a href="#">
+                        <span class="email grey-text" id="menuFont">bethel@gmail.com</span>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });</script>
 </body>
 
 </html>
