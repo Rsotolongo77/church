@@ -12,7 +12,7 @@ body {
     background-image: url("./assets/images/background.jpg");;
 }
 
-.material-icons {
+#material-icons-menu {
     font-size: 4rem;
     color: white;
 }
@@ -44,10 +44,23 @@ body {
 
 #headerContainer {
     margin-top: 4rem;
+    margin-bottom: 7rem;
 }
 
+#mainBody {
+    margin-bottom: 10rem;
+}
+
+#mainFont {
+    font-family: 'Poiret One', cursive;
+    color: white;
+    background-color: rgb(177, 176, 176);
+    padding: 3rem;
+    border-radius: 5px;
+    border: 2px solid rgba(245, 193, 191, 0.733);
+}
 .page-footer {
-    background-color: rgb(245, 193, 191);
+    background-color: rgba(245, 193, 191, 0.733);
 }
 
 iframe {
