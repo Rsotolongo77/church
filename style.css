@@ -49,7 +49,7 @@ body {
 
 #mainBody {
     margin-bottom: none;
-    background-color: rgba(131, 101, 101, 0.26);
+    background-color: rgba(131, 115, 101, 0.26);
 }
 
 #churchPic {
@@ -62,19 +62,20 @@ body {
 
 #mainFont {
     font-family: 'Poiret One', cursive;
-    color: white;
-    background-color: rgb(177, 176, 176);
+    color: black;
     padding: 3rem;
-    border-radius: 5px;
-    border: 2px solid rgba(245, 193, 191, 0.733);
 }
 
 #secMainBod{
     margin-bottom: 25rem;
     padding: 4rem;
     background-color: rgba(255, 255, 255, 0.842);
-    color: rgb(83, 142, 179);
+    color: rgb(79, 130, 161);
     font-family: monospace;
+}
+
+#aboutUsCont {
+    background-color: lightslategray;
 }
 
 .page-footer {
