@@ -43,19 +43,27 @@ body {
 }
 
 #headerContainer {
-    margin-top: 2rem;
-    margin-bottom: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
 }
 
 #mainBody {
     margin-bottom: none;
-    background-color: rgba(131, 115, 101, 0.26);
+    padding: 3rem;
+    border-top: 1px solid rgb(0, 255, 242);
+    background-color: rgba(80, 80, 80, 0.219);
+    transform: skewY(3deg);
+}
+
+#mainBodyPic {
+    transform: skewY(-3deg);
 }
 
 #churchPic {
     width: 100%;
     border-radius: 10px;
-    border: 4px solid rgba(245, 193, 191, 0.733);
+    border: 2px solid rgb(255, 175, 173);
+    box-shadow: 10px 36px 32px 0px rgba(46, 46, 46, 0.75);
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
@@ -68,14 +76,20 @@ body {
 
 #secMainBod{
     margin-bottom: 25rem;
-    padding: 4rem;
-    background-color: rgba(255, 255, 255, 0.842);
+    padding: 7rem;
+    border-bottom: 2px solid rgb(0, 255, 242);
+    background-color: rgba(255, 255, 255, 0.911);
     color: rgb(79, 130, 161);
     font-family: monospace;
+    transform: skewY(3deg);
+}
+
+#contactInfo {
+    transform: skewY(-3deg);
 }
 
 #aboutUsCont {
-    background-color: lightslategray;
+    background-color: rgba(165, 178, 190, 0.952);
 }
 
 .page-footer {
