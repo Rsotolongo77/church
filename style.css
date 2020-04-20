@@ -108,14 +108,13 @@ body {
 #staffCont {
     background-color: rgba(206, 206, 206, 0.664);
     border: 2px solid grey;
-    /* border-radius: 10px; */
     padding: 4rem;
     margin-bottom: 20rem;
 }
 
 .card {
     box-shadow: 10px 36px 32px 0px rgba(46, 46, 46, 0.75);
-    margin-bottom: 4rem;
+    margin-bottom: 10rem;
 }
 
 .page-footer {
